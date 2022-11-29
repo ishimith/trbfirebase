@@ -4,15 +4,18 @@
 
 // Cole as informações do seu RealTime Database do Firebase abaixo:
 const firebaseConfig = {
-  apiKey: "AIzaSyCJoQLYXRkE2pScMsDpPZWGFWQVnR3GyMs",
-  authDomain: "leme-fatecitu-gti.firebaseapp.com",
-  databaseURL: "https://leme-fatecitu-gti-default-rtdb.firebaseio.com",
-  projectId: "leme-fatecitu-gti",
-  storageBucket: "leme-fatecitu-gti.appspot.com",
-  messagingSenderId: "394057380184",
-  appId: "1:394057380184:web:9f9755997a28697b41b52d",
-  measurementId: "G-5ZVJSVZ7XZ"
+  apiKey: "AIzaSyBQp63xgyOZLOFo_tD3gUYdlODB5WCYQ8U",
+  authDomain: "prg-int.firebaseapp.com",
+  projectId: "prg-int",
+  storageBucket: "prg-int.appspot.com",
+  messagingSenderId: "117536656081",
+  appId: "1:117536656081:web:e6535cd9d260a5bc07d3f0",
+  measurementId: "G-TW923XXRPJ"
 };
+
+// Iniciando o Firebase //
+firebase.initializeApp(firebaseConfig)
+var database=firebase.database
 
 
 /*
@@ -25,6 +28,3 @@ const firebaseConfig = {
 }
 */
 
-// Inicializando o Firebase
-firebase.initializeApp(firebaseConfig);
-var database = firebase.database();
